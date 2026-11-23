@@ -1,0 +1,22 @@
+{
+  "name": "atlas-steel",
+  "version": "0.1.0",
+  "description": "Draw Steel encounter, negotiation, and montage tools for Obsidian alongside Atlas VTT.",
+  "type": "module",
+  "scripts": {
+    "dev": "node esbuild.config.mjs --watch",
+    "build": "tsc --noEmit && node esbuild.config.mjs production"
+  },
+  "keywords": [
+    "obsidian",
+    "obsidian-plugin",
+    "atlas-vtt",
+    "draw-steel",
+    "ttrpg"
+  ],
+  "devDependencies": {
+    "esbuild": "^0.25.5",
+    "obsidian": "^1.14.4",
+    "typescript": "^5.8.3"
+  }
+}

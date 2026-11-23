@@ -1,0 +1,17 @@
+name: Feature request
+description: Suggest an improvement for Atlas Steel
+labels: ["enhancement"]
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: What are you trying to do?
+      description: Describe the table workflow or problem.
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: What would you like Atlas Steel to do?
+    validations:
+      required: true

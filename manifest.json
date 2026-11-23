@@ -1,0 +1,10 @@
+{
+  "id": "atlas-steel",
+  "name": "Atlas Steel",
+  "version": "0.1.0",
+  "minAppVersion": "1.8.7",
+  "description": "Draw Steel encounter, negotiation, and montage tools for Obsidian alongside Atlas VTT.",
+  "author": "loganhibbard12-bot",
+  "authorUrl": "https://github.com/loganhibbard12-bot",
+  "isDesktopOnly": true
+}
